@@ -30,7 +30,7 @@
 inherit kernel
 require recipes-kernel/linux/linux-yocto.inc
 
-SRC_URI = "git@github.com:NextThingCo/CHIP-linux.git;protocol=git;bareclone=1;branch=${KBRANCH}"
+SRC_URI = "git://github.com/NextThingCo/CHIP-linux.git;protocol=git;bareclone=1;branch=${KBRANCH}" 
 
 SRC_URI += "file://defconfig"
 
