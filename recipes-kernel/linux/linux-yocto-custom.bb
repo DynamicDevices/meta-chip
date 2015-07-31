@@ -45,7 +45,7 @@ KBRANCH = "nextthing/chip"
 LINUX_VERSION ?= "4.1.0"
 LINUX_VERSION_EXTENSION ?= "-chip"
 
-SRCREV="${AUTOREV}"
+SRCREV="2f59cdfc706266a8ab7b444bf9c0eebc88f9dc3f"
 
 PR = "r0"
 PV = "${LINUX_VERSION}+git${SRCPV}"
